@@ -7,10 +7,10 @@ function Project() {
       <div className="Project_box">
         Project1
         <div>
-          <img src="/image_project1.png" width="150px" height="150px" alt="logo" ></img>
+          <img src={process.env.PUBLIC_URL + "/image_project1.png"} width="150px" height="150px" alt="logo" ></img>
         </div>
         <div>
-          <img src="/image_project2.png" width="150px" height="150px" alt="logo" ></img>
+          <img src={process.env.PUBLIC_URL + "/image_project2.png"} width="150px" height="150px" alt="logo" ></img>
         </div>
       </div>
 

@@ -7,10 +7,10 @@ import Object from "./Component/Object";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <header>
       <div>
-        <img src="/LoGO.png" width="150px"height="100px" alt="logo" ></img>
+        <img src={process.env.PUBLIC_URL+"/LoGo.png"} width="150px"height="100px" alt="logo" ></img>
       </div>
     </header>
     <div>

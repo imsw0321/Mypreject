@@ -1,0 +1,46 @@
+
+body {
+  margin: 1%;
+ /* background-color: rgb(240, 240, 240);*/
+}
+
+header {
+  /*background-color: #d2d2d2;*/
+  margin-left: 45.85%;
+  margin-bottom: 1.5%;
+}
+
+.Navbar {
+  display: flex;
+  height: 4em;
+  justify-content: space-evenly;
+  /*background-color: rgb(221, 221, 221);*/
+ 
+  padding: 0;
+}
+.Navbar li {
+  display: inline;
+  margin: 0 50px; 
+  font-size: 25px;
+
+  /*background-color: rgb(255, 255, 255);*/
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.Navbar a:hover {
+  text-decoration: underline;
+}
+.Maincontent {
+  background-color: rgb(240, 240, 240);
+  height: 40em;
+  padding: 5% 10% 5% 10%;
+  border-radius: 15px;
+ }

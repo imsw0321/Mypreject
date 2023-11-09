@@ -30,7 +30,7 @@ function App() {
       </main>
     </div>
     <footer>
-      
+      <div className="Footer">202231146 | 김선우 | imsw0321@gachon.ac.kr </div>
     </footer>
     </BrowserRouter>
   );

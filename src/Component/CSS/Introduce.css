@@ -1,9 +1,18 @@
 .Maincontent_SelfIntro{
     padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: row;
     /*background-color: rgb(172, 72, 72);*/
 }
 .Intro_box{
+    background-color: #fff;
+	padding: 20px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    border-style: dotted;
-    width: 30%;
+    
+    float: left;
+    margin-left:8%;
+    white-space: nowrap;
 }

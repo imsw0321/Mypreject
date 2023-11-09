@@ -1,27 +1,26 @@
-import React from 'react';
-import styles from '../CSS/Modal.css';
 
-function Modal({ setModalOpen, title, content, writer }) {
-  const closeModal = () => {
-    setModalOpen(false);
-  };
+/*import React, { useState } from "react";*/
+
+import React from 'react';
+import '../CSS/Modal.css';
+
+function Modal({ isOpen, onClose, children }) {
+  if (!isOpen) {
+    return null;
+  }
 
   return (
-    <div className={styles.overlay} onClick={closeModal}>
-      <div className={styles.container} onClick={(e) => e.stopPropagation()}>
-        <button className={styles.close} onClick={closeModal}>
+    <div className="Modal_container" onClick={onClose}>
+      <div className="Modal_box" onClick={(e) => e.stopPropagation()}>
+        <button onClick={onClose} className="Modal_close_button">
           X
         </button>
-        <h2>{title}</h2>
-        <p>{content}</p>
-        <img
-          className={styles.modalImage}
-          src={process.env.PUBLIC_URL + "/LoGo.png"}
-          alt="logo"
-        />
+        {children}
       </div>
     </div>
   );
 }
 
 export default Modal;
+
+

@@ -12,8 +12,13 @@ function Project() {
   };
 
   return (
-    <div >
-
+    <div>
+    <div className="Project_box">
+             <img src={process.env.PUBLIC_URL + "/image_project1_main1.png"} width="800px" height="500px" alt="sw" ></img> 
+      </div>
+      <div className="Project_box">
+             <img src={process.env.PUBLIC_URL + "/image_project2_main2.png"} width="800px" height="500px" alt="sw" ></img> 
+      </div>             
       <div>
 
         <button onClick={openModal}>모달 열기</button>

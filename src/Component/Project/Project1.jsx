@@ -16,13 +16,26 @@ function Project1() {
 
   return (
     <div className="Project">
+      <div className="Project_name">Project1</div>
+      <div className="Project_guide">아래를 눌러주세요.</div>
       <div className="Project_box" onClick={openModal}>
-        <img src={process.env.PUBLIC_URL + '/image_project1_main1.png'} width="800px" height="500px" alt="sw" />
+        <img src={process.env.PUBLIC_URL + '/image_project1_main11.png'} width="800px" height="500px" alt="sw" />
       </div>
       <Modal isOpen={isOpen} onClose={closeModal}>
-        {/* 프로젝트 1의 내용이나 추가 정보를 여기에 표시 */}
-        <h2>프로젝트 1</h2>
-        <p>프로젝트 1의 설명이나 내용이 여기에 들어갈 수 있어.</p>
+        <div className="Project_contents">
+        <h2>유기 동물 정보 사이트</h2>
+        <p>
+
+          이 프로젝트는 웹프로그래밍 과제로 만들었던 프로그램입니다.
+          해당 프로젝트는 HTML, CSS, Javascript를 활용한 프로젝트였습니다.
+          최근, 유기견, 유기묘, 유기동물에 대한 사회적 문제가 심각해지면서, 이를 상기시킬 수 있는 프로젝트를 만들고 싶었습니다.
+          따라서, 저는 이에 대한 정보를 제공하고자 유기 동물 정보 사이트를 프로젝트로 실시하게 되었습니다.
+        </p>
+        <div className="Project_image_photo">
+        <img src={process.env.PUBLIC_URL + "/image_project1_web1.png"} width="500px" height="400px" alt="logo" ></img>
+        <img src={process.env.PUBLIC_URL + "/image_project1_web2.png"} width="500px" height="400px" alt="logo" ></img>
+        </div>
+        </div>
       </Modal>
     </div>
   );

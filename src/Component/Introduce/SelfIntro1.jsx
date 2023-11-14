@@ -6,7 +6,9 @@ function SelfIntro1() {
         <div className="Maincontent_SelfIntro">
 
             <div className="Intro_box_self">
-                <p>기본정보</p>
+                <p>
+                <img src={process.env.PUBLIC_URL + "/mation.png"} width="50px" height="50px" alt="sw" />
+                기본정보</p>
                 <hr></hr>
                 <p>김선우 Kim Sun Woo</p>
                 <p>2003.03.21 만 20세</p>

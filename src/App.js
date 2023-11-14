@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Main from "./Component/Main";
 import Project from "./Component/Project";
-import SelfIntro from "./Component/Introduce/SelfIntro";
+import SelfIntro from "./Component/SelfIntro";
 import Object from "./Component/Object";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <nav className="Navbar">
           <ul>
             <li className="menulink"><Link to={"/Main"}>Main</Link></li>
-            <li className="menulink"><Link to={"/Introduce"}>Introduce</Link></li>
+            <li className="menulink"><Link to={"/SelfIntro"}>Introduce</Link></li>
             <li className="menulink"><Link to={"/Project"}>Project</Link></li>
             <li className="menulink"><Link to={"/Object"}>Object</Link></li>
           </ul>
@@ -26,14 +26,14 @@ function App() {
           <Routes>
             <Route path="/" element={<Main />}></Route>
             <Route path="/Main" element={<Main />}></Route>
-            <Route path="/Introduce" element={<SelfIntro />}></Route>
+            <Route path="/SelfIntro" element={<SelfIntro />}></Route>
             <Route path="/Project" element={<Project />}></Route>
             <Route path="/Object" element={<Object />}></Route>
           </Routes>
         </main>
       </div>
       <footer>
-        <div className="Footer">202231146 | 김선우 | imsw0321@gachon.ac.kr </div>
+        <div className="Footer">202231146 | 김선우 | https://github.com/imsw0321 </div>
       </footer>
     </BrowserRouter>
   );

@@ -5,7 +5,8 @@
     /*background-color: rgb(172, 72, 72);*/
 }
 .Intro_box{
-    background-color: #fff;
+  
+  background-color: #fff;
 	padding: 20px;
 	margin-bottom: 15px;
 	border-radius: 8px;
@@ -15,6 +16,14 @@
     float: left;
     margin-left:8%;
     white-space: nowrap;
+    
+
+}
+.Intro_box p {
+  white-space: pre-line; /* 텍스트의 줄바꿈을 유지하고, 여러 개의 공백도 유지함 */
+  margin: 0; /* 기본 마진 제거 */
+  line-height: 2.0;
+  font-size: 18px;
 }
 .Checklist li {
     list-style: none; 

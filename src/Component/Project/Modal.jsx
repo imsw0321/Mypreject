@@ -10,12 +10,12 @@ function Modal({ isOpen, onClose, children }) {
     }
 
     return (
-        <div className="Modal_container" onClick={onClose}>
-            <div className="Modal_box" onClick={(e) => e.stopPropagation()}>
-                <button onClick={onClose} className="Modal_close_button">
-                    X
-                </button>
-                {children}
+        <div className="Modal_container">
+        <div className="Modal_box" onClick={(e) => e.stopPropagation()}>
+            <button onClick={onClose} className="Modal_close_button">
+                X
+            </button>
+            {children}
             </div>
         </div>
     );

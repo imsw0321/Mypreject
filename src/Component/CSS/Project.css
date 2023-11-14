@@ -69,10 +69,13 @@
   height: auto;
   transition: transform 0.3s ease; /* 이미지에 hover 효과를 추가하기 위한 트랜지션 */
 }
-
+.Project_box:hover{
+  cursor: pointer;
+}
 .Project_box:hover img {
   transform: scale(1.1); /* hover 시 이미지를 조금 크게 확대 */
 }
+
 .Project_contents{
   font-size: 20px;
 }

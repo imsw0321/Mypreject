@@ -7,7 +7,7 @@ function Object1() {
     return (
         <div className="Maincontent_Object">
 
-            <div className="Intro_box">
+            <div className="Intro_box_object">
                 
                     <p>데이터분석가 진로 선택한 이유</p>
                     <hr></hr>

@@ -20,7 +20,7 @@ const Login = ({ id, pwd, changeId, changePwd, onLogin }) => {
           </td>
         </tr>
       </table>
-      <br></br>
+      <p>아이디 cbkim 비밀번호 1111로 확인해주세요</p>
       <button className="LoginButton" onClick={onLogin}>
         LOGIN
       </button>

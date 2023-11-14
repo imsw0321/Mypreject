@@ -4,8 +4,8 @@
     flex-direction: row;
     /*background-color: rgb(172, 72, 72);*/
 }
-.Intro_box{
-  
+.Intro_box_object{
+  width:1000px;
   background-color: #fff;
 	padding: 20px;
 	margin-bottom: 15px;
@@ -19,7 +19,7 @@
     
 
 }
-.Intro_box p {
+.Intro_box_object p {
   white-space: pre-line; /* 텍스트의 줄바꿈을 유지하고, 여러 개의 공백도 유지함 */
   margin: 0; /* 기본 마진 제거 */
   line-height: 2.0;

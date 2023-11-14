@@ -3,7 +3,7 @@ import '../CSS/Object.css';
 function Object2() {
     return (
         <div className="Maincontent_Object">
-            <div className="Intro_box">
+            <div className="Intro_box_object">
                 <p>데이터분석가 이루기 위한 목표</p>
                 <hr></hr>
                 <ul className="Checklist">

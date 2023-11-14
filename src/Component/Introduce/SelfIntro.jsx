@@ -6,24 +6,22 @@ function SelfIntro() {
         <div className="Maincontent_SelfIntro">
 
             <div className="Intro_box">
-                
-                    <p>데이터분석가 진로 선택한 이유</p>
-                    <br></br>
-                    <p>데이터로 기업의 그림을 그리고 싶은 데이터분석가 유망주 김선우입니다.</p>
-                    
-                    <p>저의 본전공은 경영학과 입니다. 경영학과 강의에서 수업을 들으면서 느꼈던 점은
-                    현 시대에 데이터는 이 시대의 전부일 수 있다는 생각이 들었습니다.
-                    마찬가지로 기업과 데이터의 사이는 끊을 수 없는 사이가 되었습니다. 
-                    예를 들어, 소비자 구매 목록을 보기 위해서는 고객 정보 데이터베이스에 들어가서 확인해야합니다.
-                    따라서, 전 저의 미래 발전과 경쟁력 있는 사람이 되기 위해서는 데이터에 대해 배워야한다는 것을 느꼈고,
-                    데이터에 대해 배우기 위해 컴퓨터공학과 복수전공을 선택했습니다.</p>
-                    <br></br>
-                    <div className="data_image">
-                    <img src={process.env.PUBLIC_URL + "/image_data1.png"} width="400px" height="300px" alt="logo" ></img>
-                    <img src={process.env.PUBLIC_URL + "/image_data2.png"} width="400px" height="300px" alt="logo" ></img>
-                    </div>
-
+                <p>기본정보</p>
+                <hr></hr>
+                <p>2003.03.21 만 20세</p>
+                <p>010-7211-4634</p>
+                <p>imsw0321@naver.com</p>
+                <p>본전공: 경영학과 | 복수전공: 컴퓨터공학과</p>
             </div>
+            <div className="Intro_box">
+                <p>학력사항</p>
+                <hr></hr>
+                <p>2010~03.2016.02 대전구봉초등학교 졸업</p>
+                <p>2016.03~2019.02 대전봉우중학교 졸업</p>
+                <p>2019.03~2022.02 대전구봉고등학교 졸업</p>
+                <p>2022.03~ 가천대학교 재학중</p>
+            </div>
+          
         </div >
     );
 }

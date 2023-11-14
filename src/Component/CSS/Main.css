@@ -15,4 +15,9 @@
     float: left;
     margin-left:8%;
     white-space: nowrap;
+    line-height: 1.5; 
+      
+}
+.Logo_image img {
+    margin-right: 10px; 
 }

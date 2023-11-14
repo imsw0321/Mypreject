@@ -6,7 +6,7 @@
 }
 
 .Intro_box{
-   
+
     padding: 20px;    
     background-color: #fff;
 	/*padding: 20px;*/
@@ -16,7 +16,7 @@
     border-radius: 15px;
     
     white-space: nowrap;
-    width: 900px;
+    
     
 }
 .Intro_box p {
@@ -24,8 +24,4 @@
     margin: 0; /* 기본 마진 제거 */
     line-height: 2.0;
     font-size: 18px;
-}
-.date_image{
-    display: flex;
-    justify-content: space-between;
 }

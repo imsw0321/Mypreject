@@ -1,22 +1,35 @@
+import React from 'react';
 import '../Component/CSS/Main.css';
 
 function Main() {
-
+    const openWindow = (url) => {
+        window.open(url, '_blank', 'width=600,height=600');
+    };
     return (
         <div className="Maincontent_SelfIntro">
             <div>
-                <img src={process.env.PUBLIC_URL + "/image_sw.jpg"} width="250px" height="300px" alt="sw" ></img>
+                <img src={process.env.PUBLIC_URL + "/image_sw.jpg"} width="250px" height="300px" alt="sw" />
             </div>
             <div className="Intro_box">
                 <h1> 데이터 분석가가 되고 싶은 김선우입니다.</h1>
                 <p>
-                전화번호: 010-0000-0000<br></br>
-                이메일: imsw0321@gachon.ac.kr
+                    전화번호: 010-7211-4634<br />
+                    이메일: imsw0321@gachon.ac.kr
                 </p>
+                <br></br>
+                <div className="Logo_image">
+                    <img src={process.env.PUBLIC_URL + '/instagram.png'} width="40px" height="40px" alt="instagram" 
+                    onClick={() => openWindow('https://www.instagram.com/_sunuuoo_')}
+                    style={{ cursor: 'pointer' }}/>
+                    
+                    <img src={process.env.PUBLIC_URL + '/github.png'} width="40px" height="40px" alt="github" 
+                    onClick={() => openWindow('https://github.com/imsw0321')}
+                    style={{ cursor: 'pointer' }}/>
+                </div>
             </div>
-        </div >
+        </div>
+
     );
 }
-
 
 export default Main;

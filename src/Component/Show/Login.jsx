@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../Component/CSS/Login.css';
+import '../CSS/Login.css';
 
 const Login = ({ id, pwd, changeId, changePwd, onLogin }) => {
   return (

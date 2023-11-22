@@ -1,9 +1,12 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
-import Main from "./Component/Main";
-import Project from "./Component/Project";
-import SelfIntro from "./Component/SelfIntro";
-import Object from "./Component/Object";
+
+
+import Main from './Component/Show/Main';
+import Project from './Component/Show/Project';
+import SelfIntro from './Component/Show/SelfIntro';
+import Object from './Component/Show/Object';
+
 
 function App() {
   return (

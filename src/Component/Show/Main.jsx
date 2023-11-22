@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Component/CSS/Main.css';
+import '../CSS/Main.css';
 
 function Main() {
     const openWindow = (url) => {

@@ -1,9 +1,9 @@
-import '../Component/CSS/Introduce.css';
+import '../CSS/Introduce.css';
 
 
 import React from 'react';
-import SelfIntro1 from './Introduce/SelfIntro1';
-import SelfIntro2 from './Introduce/SelfIntro2';
+import SelfIntro1 from '../Introduce/SelfIntro1';
+import SelfIntro2 from '../Introduce/SelfIntro2';
 
 function SelfIntro() {
 

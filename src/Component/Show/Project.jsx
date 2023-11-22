@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Login from "./Login";
-import '../Component/CSS/Project.css';
+import '../CSS/Project.css';
 import React from 'react';
-import Project1 from './Project/Project1';
-import Project2 from './Project/Project2';
+import Project1 from '../Project/Project1';
+import Project2 from '../Project/Project2';
 
 function Project() {
   const [id, setId] = useState("");

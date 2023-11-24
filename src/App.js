@@ -36,7 +36,7 @@ function App() {
         </main>
       </div>
       <footer>
-        <div className="Footer">202231146 | 김선우 | https://github.com/imsw0321 </div>
+        <div className="Footer">Copyright 2023. Kim Sun Woo all rights reserved. </div>
       </footer>
     </BrowserRouter>
   );

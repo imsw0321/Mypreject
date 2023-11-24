@@ -4,7 +4,9 @@ function Object2() {
     return (
         <div className="Maincontent_Object">
             <div className="Intro_box_object">
-                <p>데이터분석가 이루기 위한 목표</p>
+                <p>
+                <img src={process.env.PUBLIC_URL + "/dream.png"} width="40px" height="28px" alt="card" />
+                    데이터분석가 이루기 위한 목표</p>
                 <hr></hr>
                 <ul className="Checklist">
                     <li><input type="checkbox" id="goal1" /> <label htmlFor="goal1">파이썬, R코드 등과 같은 코딩 능력 늘리기</label></li>
@@ -16,10 +18,7 @@ function Object2() {
                     <li><input type="checkbox" id="goal7" /> <label htmlFor="goal7">ADSP 자격증 따기</label></li>
                 </ul>
                 <br />
-                <div className="data_image">
                     <img src={process.env.PUBLIC_URL + "/object_image.png"} width="800px" height="300px" alt="sqld" ></img>
-                    
-                    </div>
 
                 
             </div>

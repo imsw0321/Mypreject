@@ -6,11 +6,11 @@ function Main() {
         window.open(url, '_blank', 'width=600,height=600');
     };
     return (
-        <div className="Maincontent_SelfIntro">
+        <div className="Maincontent_SelfIntro_Main">
             <div>
                 <img src={process.env.PUBLIC_URL + "/image_sw.jpg"} width="250px" height="300px" alt="sw" />
             </div>
-            <div className="Intro_box">
+            <div className="Intro_box_Main">
                 <h1> 데이터 분석가가 되고 싶은 김선우입니다.</h1>
                 <p>
                     전화번호: 010-7211-4634<br />

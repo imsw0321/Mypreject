@@ -1,0 +1,17 @@
+.SefIntro_Subvar {
+    text-align: center;
+}
+
+.SelfIntroButton {
+    margin-right: 5px;
+    font-size: 20px;
+    cursor: pointer;   
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.SelfIntroButton:hover {
+    transform: scale(1.05);  
+}
+

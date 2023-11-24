@@ -1,37 +1,25 @@
-.Maincontent_SelfIntro{
+.Maincontent_SelfIntro {
     padding: 5% 10% 5% 10%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; 
     justify-content: center;
-    display: flex;
-  
-  
 }
 
-.Intro_box_self{
+.Intro_box_self {
     background-image: url('../../Component/background_image_url.png');
-    padding: 20px;    
-    background-color: #fff;
-	
-    margin-right: 80px;
-	border-radius: 8px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    width:500px;
-    white-space: nowrap;
-    
-    
+    padding: 20px;
+    margin-right: 15px; 
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(129, 129, 129);
+    width: 350px;
+    white-space: pre-wrap;
+    margin-bottom: 20px;
 }
-.Intro_box_self + .Intro_box_self {
-    margin-right: 0; /* 두 번째 Intro_box_self에 대한 margin-right를 0으로 설정 */
-  }
+
 .Intro_box_self p {
-    white-space: pre-line; /* 텍스트의 줄바꿈을 유지하고, 여러 개의 공백도 유지함 */
-    margin: 0; /* 기본 마진 제거 */
+    white-space: pre-line;
+    margin: 0;
     line-height: 2.0;
     font-size: 18px;
 }
-.Intro_box_self:hover {
-    /* 여기에 hover 시 적용할 스타일을 추가하세요 */
-    border: 2px solid #616263;
-}
+

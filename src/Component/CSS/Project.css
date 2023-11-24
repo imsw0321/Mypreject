@@ -9,8 +9,7 @@
   font-size: 25px;
   margin-bottom: 20px;
   font-weight: bold;
-  
-  
+   
 }
 
 .Project_box {
@@ -73,7 +72,7 @@
   cursor: pointer;
 }
 .Project_box:hover img {
-  transform: scale(1.1); /* hover 시 이미지를 조금 크게 확대 */
+  transform: scale(1.05); /* hover 시 이미지를 조금 크게 확대 */
 }
 
 .Project_contents{

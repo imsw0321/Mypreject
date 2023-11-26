@@ -1,7 +1,5 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
-
-
 import Main from './Component/Show/Main';
 import Project from './Component/Show/Project';
 import SelfIntro from './Component/Show/SelfIntro';
